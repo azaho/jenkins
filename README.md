@@ -34,7 +34,7 @@ pip install torch torchvision
 And then install the rest of the libraries:
 
 ```
-pip install dandi pynwb h5py matplotlib scikit-learn pygame dynamixel_sdk ikpy psutil ipykernel
+pip install "numpy<2.0" dandi pynwb h5py matplotlib scikit-learn pygame dynamixel_sdk ikpy psutil ipykernel
 ```
 
 ## Data Download
