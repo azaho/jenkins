@@ -1,4 +1,4 @@
-# Project Jenkins: Monkey Thinks, Robot Moves... and Back?
+# Project Jenkins: Turning Monkey Neural Data into Robotic Arm Movement, and Back
 [![Jenkins Project Diagram](jenkins_project_diagram.png)](https://808robots.com/projects/jenkins)
 
 Project Jenkins explores how neural activity in the brain can be translated into robotic movement and, conversely, how movement patterns can be used to reconstruct brain activity. Using real neural data recorded from a macaque monkey named Jenkins, we develop models for decoding (converting brain signals into robotic arm movements) and encoding (simulating brain activity with a given movement).
@@ -6,6 +6,8 @@ For the interface between the brain simulation and the physical world, we utiliz
 Our results are a step towards brain-controlled robotics, prosthetics, and enhancing normal motor function. By accurately modeling brain activity, we take a step toward flexible brain-computer interfaces that generalize beyond predefined movements.
 
 🔗 [Visit the full project page](https://808robots.com/projects/jenkins) for more details, videos, and interactive demos.
+📄 [Read our paper on arXiv](https://arxiv.org/abs/2503.14847) for the full technical details and methodology.
+
 
 ## Environment Setup
 
@@ -67,4 +69,18 @@ To train the model that generates hand velocity from brain activity, run the fol
 jupyter decoder_train.ipynb
 ```
 
+## Citation
 
+If you use this code, please cite the following paper:
+
+```
+@misc{2025jenkins,
+      title={Project Jenkins: Turning Monkey Neural Data into Robotic Arm Movement, and Back}, 
+      author={Andrii Zahorodnii and Dima Yanovsky},
+      year={2025},
+      eprint={2503.14847},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2503.14847}, 
+}
+```
