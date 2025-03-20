@@ -6,6 +6,7 @@ For the interface between the brain simulation and the physical world, we utiliz
 Our results are a step towards brain-controlled robotics, prosthetics, and enhancing normal motor function. By accurately modeling brain activity, we take a step toward flexible brain-computer interfaces that generalize beyond predefined movements.
 
 🔗 [Visit the full project page](https://808robots.com/projects/jenkins) for more details, videos, and interactive demos.
+
 📄 [Read our paper on arXiv](https://arxiv.org/abs/2503.14847) for the full technical details and methodology.
 
 
